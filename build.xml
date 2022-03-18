@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<project name="test" default="all" basedir=".">
+
+  <target name="all" description="Test ant">
+    <echo>Testing ANT execution on vm</echo>
+  </target>
+
+</project>
