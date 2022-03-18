@@ -1,0 +1,10 @@
+trigger:
+- main
+
+pool: Default
+
+
+steps:
+- task: Ant@1
+  inputs:
+    buildFile: 'build.xml'
